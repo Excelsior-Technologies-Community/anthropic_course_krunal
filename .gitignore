@@ -1,0 +1,18 @@
+# Environment variables - NEVER commit these
+.env
+.env.*
+!.env.example
+
+# Private notes
+server/notes.txt
+
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Sensitive backups
+server/.backups/
+
+# OS files
+.DS_Store
+Thumbs.db
