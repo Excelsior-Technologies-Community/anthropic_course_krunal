@@ -1,18 +1,30 @@
-# Environment variables - NEVER commit these
-.env
-.env.*
-!.env.example
+# Exclude root-level files that are not part of the MERN project
+*.ipynb
+*.zip
+*.csv
+*.pdf
+images.zip
+cli_project.zip
+cli_project_COMPLETE.zip
+streaming.csv
+earth.pdf
+package-lock.json
 
-# Private notes
-server/notes.txt
-
-# Dependencies
+# Node
 node_modules/
-*/node_modules/
+server/node_modules/
+client/node_modules/
 
-# Sensitive backups
-server/.backups/
+# Database
+server/tools.db
 
-# OS files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+server/.env
+
+# Build
+client/build/
+
+# Logs
+*.log
+npm-debug.log*
